@@ -12,7 +12,7 @@ public class MagicBallController {
 
     @ModelAttribute("sentance1")
     String say(){
-        return "I ammmmmmmmm sarah";
+        return "I ammmmmmmmmmm sarah";
     }
 
     @GetMapping
