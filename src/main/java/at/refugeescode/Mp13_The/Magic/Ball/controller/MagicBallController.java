@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/")
 public class MagicBallController {
 
-    @ModelAttribute("sentance")
+    @ModelAttribute("sentance1")
     String say(){
-        return "i ammmmmmmmm sarah";
+        return "I ammmmmmmmm sarah";
     }
 
     @GetMapping
     String page(Model model) {
-        model.addAttribute("sentance", "Alex is here");
+        model.addAttribute("sentance", "Sarah is here");
         return "magicBall";
     }
 }
